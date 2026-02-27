@@ -1,0 +1,35 @@
+body {
+  background: #121512;
+}
+
+.back-link {
+  color: #b2f0ac;
+}
+
+.case-study-subtitle {
+  color: #b2f0ac;
+}
+
+.section-title {
+  color: #b2f0ac;
+}
+
+.case-study-subheading em {
+  color: #b2f0ac;
+}
+
+.card {
+  background: #040604;
+}
+
+.card-title {
+  color: #b2f0ac;
+}
+
+.walkthrough-img {
+  background: rgba(44, 53, 36, 0.4);
+}
+
+.walkthrough-title {
+  color: #b2f0ac;
+}
