@@ -27,7 +27,18 @@ body {
 }
 
 .walkthrough-img {
-  background: rgba(129, 83, 65, 0.4);
+  background: linear-gradient(
+    39deg,
+    #f6a17d -10.64%,
+    #f5946c 8.63%,
+    #ed845c 22.37%,
+    #e5754c 32.74%,
+    #b15536 42.66%,
+    #712e1c 54.77%,
+    #3d190f 68.85%,
+    #070201 87.07%,
+    #000 98.08%
+  );
 }
 
 .walkthrough-title {
