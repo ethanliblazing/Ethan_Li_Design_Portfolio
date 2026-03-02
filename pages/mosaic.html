@@ -12,18 +12,18 @@
   <body>
     <header class="nav-main">
       <div class="nav-links">
-        <li><a href="..\pages\about.html">ABOUT</a></li>
+        <a href="../pages/about.html">ABOUT</a>
       </div>
       <div class="logo">
-        <li><a href="..\index.html">ETHAN LI</a></li>
+        <a href="../index.html">ETHAN LI</a>
       </div>
       <div class="nav-links">
-        <li><a href="..\assets\ethan-li-resume.pdf">RESUME</a></li>
+        <a href="../assets/ethan-li-resume.pdf">RESUME</a>
       </div>
     </header>
 
     <div class="back-button">
-      <a href="..\index.html">
+      <a href="../index.html">
         <img
           src="../assets/img/orange-back-arrow.webp"
           alt="back arrow"
@@ -159,11 +159,11 @@
         communicate with hosts.
       </h2>
 
-      <section class="video-section">
-        <div style="padding: 56.25% 0 0 0; position: relative">
+      <div class="video-section">
+        <div class="video-wrapper">
           <iframe
             src="https://player.vimeo.com/video/1169203944?badge=0&autopause=0&player_id=0&app_id=58479"
-            frameborder="0"
+            class="vimeo-iframe"
             allow="
               autoplay;
               fullscreen;
@@ -173,19 +173,12 @@
               web-share;
             "
             referrerpolicy="strict-origin-when-cross-origin"
-            style="
-              position: absolute;
-              top: 0;
-              left: 0;
-              width: 100%;
-              height: 100%;
-            "
             title="Mosaic - Video Pitch"
           >
           </iframe>
         </div>
         <script src="https://player.vimeo.com/api/player.js"></script>
-      </section>
+      </div>
 
       <div class="walkthrough-block">
         <div class="walkthrough-img">
@@ -302,15 +295,16 @@
     <section class="case-study-content-block">
       <p class="section-title">Reflection</p>
       <h2 class="case-study-subheading">
-        After implementation, the site was able to garner 10,000+ unique visits.
-        This was my first UX/UI website project with a real-world client and I
-        was able to garner many new skillsets such as cross-communication
-        between me and the web developers, creating design systems and component
-        libraries from scratch, and conducting usability testing.
+        This was my first time creating a concept mobile app from the ground up.
+        My most prominent takeaways for the project is the importance of
+        communicating with our target audience at every step of the project.
+        Through the user research/interviews I conducted, it vastly impacted the
+        outcome of our final product and ensured our target audience's needs
+        were met across all touchpoints.
       </h2>
     </section>
 
-    <section class="footer">
+    <div class="footer">
       <div class="footer-container">
         <div class="footer-text">
           <p>Designed + Coded by Ethan Li, 2026</p>
@@ -326,6 +320,6 @@
           >
         </div>
       </div>
-    </section>
+    </div>
   </body>
 </html>
