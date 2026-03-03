@@ -363,7 +363,8 @@ body {
   }
 
   .walkthrough-img {
-    background: rgba(129, 83, 65, 0.4);
-    height: 20rem;
+    width: 100%;
+    aspect-ratio: 16 / 9; /* wider ratio suits horizontal desktop gifs better */
+    height: auto; /* let aspect-ratio control height instead */
   }
 }
