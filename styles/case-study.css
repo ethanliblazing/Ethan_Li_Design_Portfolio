@@ -306,6 +306,17 @@ body {
   height: 100%;
 }
 
+.inline-link {
+  color: #fdae92;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+  transition: opacity 0.2s ease;
+}
+
+.inline-link:hover {
+  opacity: 0.7;
+}
+
 @media (max-width: 64rem) {
   .walkthrough-img {
     width: 100%;
