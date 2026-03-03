@@ -329,16 +329,6 @@ body {
     font-size: 1.75rem;
     line-height: 2.175rem;
   }
-
-  .walkthrough-block {
-    flex-direction: column;
-    gap: 2rem;
-  }
-
-  .walkthrough-body {
-    font-size: 1.75rem;
-    line-height: 2.175rem;
-  }
 }
 
 @media (max-width: 48rem) {
@@ -362,9 +352,18 @@ body {
     grid-template-rows: repeat(3, 1fr);
   }
 
+  .walkthrough-block {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .walkthrough-body {
+    font-size: 1.75rem;
+    line-height: 2.175rem;
+  }
   .walkthrough-img {
     width: 100%;
-    aspect-ratio: 16 / 9; /* wider ratio suits horizontal desktop gifs better */
-    height: auto; /* let aspect-ratio control height instead */
+    aspect-ratio: 16 / 9;
+    height: auto;
   }
 }
