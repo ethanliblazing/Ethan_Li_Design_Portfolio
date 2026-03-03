@@ -46,7 +46,7 @@ body {
   object-fit: cover;
   margin-top: 2rem;
   margin-bottom: 1rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
 }
 
 .case-study-title {
@@ -185,6 +185,7 @@ body {
   line-height: 1.875rem;
   letter-spacing: -0.0125rem;
 }
+
 .persona-list {
   list-style: none;
   display: flex;
@@ -347,9 +348,34 @@ body {
     margin-bottom: 2rem;
   }
 
+  .section-title {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
+
   .findings-card-grid {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(3, 1fr);
+  }
+
+  .card {
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+  }
+
+  .card-body {
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+  }
+
+  .persona-list li {
+    font-size: 1.25rem;
   }
 
   .walkthrough-block {
@@ -358,8 +384,8 @@ body {
   }
 
   .walkthrough-body {
-    font-size: 1.75rem;
-    line-height: 2.175rem;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
   }
   .walkthrough-img {
     width: 100%;
