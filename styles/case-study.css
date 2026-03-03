@@ -365,17 +365,17 @@ body {
   }
 
   .card-title {
-    font-size: 1.5rem;
-    line-height: 1.75rem;
+    font-size: 1.75rem;
+    line-height: 2rem;
   }
 
   .card-body {
-    font-size: 1.25rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .persona-list li {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
   }
 
   .walkthrough-block {
