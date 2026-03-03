@@ -307,7 +307,6 @@ body {
 }
 
 .inline-link {
-  color: #fdae92;
   text-decoration: underline;
   text-underline-offset: 0.2rem;
   transition: opacity 0.2s ease;
@@ -318,15 +317,6 @@ body {
 }
 
 @media (max-width: 64rem) {
-  .walkthrough-img {
-    width: 100%;
-  }
-}
-
-@media (max-width: 64rem) {
-  .screen-image {
-    width: fixed;
-  }
   .case-study-details {
     width: 80%;
   }
