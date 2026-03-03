@@ -185,6 +185,34 @@ body {
   line-height: 1.875rem;
   letter-spacing: -0.0125rem;
 }
+.persona-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.persona-list li {
+  font-family: "Overused Grotesk";
+  font-size: 1.5rem;
+  font-weight: 350;
+  color: #ffffff;
+  line-height: 1.875rem;
+  letter-spacing: -0.0125rem;
+  padding-left: 1.25rem;
+  position: relative;
+}
+
+.persona-list li::before {
+  content: "";
+  width: 0.4rem;
+  height: 0.4rem;
+  background-color: #fdae92;
+  border-radius: 50%;
+  position: absolute;
+  left: 0;
+  top: 0.65rem;
+}
 
 .walkthrough-block {
   display: flex;
