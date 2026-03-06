@@ -78,7 +78,7 @@ body {
   column-gap: 4rem;
   width: auto;
   justify-content: flex-start;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .details-block {
@@ -90,7 +90,7 @@ body {
 }
 
 .detail-title {
-  font-family: "Overused Grotesk";
+  font-family: "Overused Grotesk", sans-serif;
   font-size: 2rem;
   font-style: normal;
   color: #ffffff;
@@ -100,7 +100,7 @@ body {
 }
 
 .detail-body {
-  font-family: "Overused Grotesk";
+  font-family: "Overused Grotesk", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -166,7 +166,7 @@ body {
 }
 
 .card-title {
-  font-family: "Overused Grotesk";
+  font-family: "Overused Grotesk", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
@@ -177,7 +177,7 @@ body {
 }
 
 .card-body {
-  font-family: "Overused Grotesk";
+  font-family: "Overused Grotesk", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 350;
@@ -194,7 +194,7 @@ body {
 }
 
 .persona-list li {
-  font-family: "Overused Grotesk";
+  font-family: "Overused Grotesk", sans-serif;
   font-size: 1.5rem;
   font-weight: 350;
   color: #ffffff;
@@ -255,7 +255,7 @@ body {
 }
 
 .walkthrough-title {
-  font-family: "Overused Grotesk";
+  font-family: "Overused Grotesk", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
@@ -265,7 +265,7 @@ body {
 }
 
 .walkthrough-body {
-  font-family: "Overused Grotesk";
+  font-family: "Overused Grotesk", sans-serif;
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
@@ -275,7 +275,7 @@ body {
 }
 
 .content-subtitle {
-  font-family: "Overused Grotesk";
+  font-family: "Overused Grotesk", sans-serif;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 400;
