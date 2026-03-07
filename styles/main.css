@@ -20,14 +20,14 @@
 
 @font-face {
   font-family: "Overused Grotesk Regular";
-  src: url("../fonts/OverusedGrotesk-Regular.otf") format("opentype");
+  src: url("assets/fonts/OverusedGrotesk-Light.otf") format("opentype");
   font-weight: 300;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Overused Grotesk Book";
-  src: url("../fonts/kOverusedGrotesk-Book.otf") format("opentype");
+  src: url("../fonts/OverusedGrotesk-Book.otf") format("opentype");
   font-weight: 250;
   font-style: normal;
 }
@@ -277,7 +277,7 @@ body {
 
 .project-name {
   color: #fff;
-  font-family: "Overused Grotesk Regular", serif;
+  font-family: "Overused Grotesk Regular", sans-serif;
   font-size: 1.5rem;
   letter-spacing: -0.02rem;
 }
